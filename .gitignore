@@ -1,0 +1,12 @@
+# Ignora dependencias
+node_modules/
+
+# Archivos de log
+npm-debug.log*
+
+# Entorno
+.env
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
