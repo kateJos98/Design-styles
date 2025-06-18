@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  rest-api:
+    build: ./rest-api
+    ports:
+      - "3000:3000"
+
+  soap-api:
+    build: ./soap-api
+    ports:
+      - "3001:3001"
+
+  webhook:
+    build: ./webhook
+    ports:
+      - "3002:3002"
+
+  websocket:
+    build: ./websocket
+    ports:
+      - "3003:3003"
+
+  socketio:
+    build: ./socketio
+    ports:
+      - "3004:3004"
